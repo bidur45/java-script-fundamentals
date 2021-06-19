@@ -79,13 +79,13 @@
 
 
 
-const ayush = {
-    firstName : 'Ayush',
-    lastName : 'Maharjan',
-    birthYear : 2000,
-    job : 'Student',
-    friends : ['Sajal', 'Manish', 'Kamal'],
-    hasDriverLicense : true,
+// const ayush = {
+//     firstName : 'Ayush',
+//     lastName : 'Maharjan',
+//     birthYear : 2000,
+//     job : 'Student',
+//     friends : ['Sajal', 'Manish', 'Kamal'],
+//     hasDriverLicense : true,
   
     // calcAge: function (birthYear) {
     //   return 2021 - birthYear;
@@ -103,27 +103,30 @@ const ayush = {
     //   return 2021 - this.birthYear;
     // }
   
-    calcAge: function() {
-      ayush.age = 2021 - ayush.birthYear;
-      return ayush.age;
-    },
+//     calcAge: function() {
+//       ayush.age = 2021 - ayush.birthYear;
+//       return ayush.age;
+//     },
   
-    getSummary: function() {
-      return `${ayush.firstName} is a ${ayush.age} years old ${ayush.job} and he has ${this.hasDriverLicense ? 'a' : 'no'} driver's License`;
-    }
+//     getSummary: function() {
+//       return `${ayush.firstName} is a ${ayush.age} years old ${ayush.job} and he has ${this.hasDriverLicense ? 'a' : 'no'} driver's License`;
+//     }
   
-  };
+//   };
   
 //   console.log(ayush.calcAge());
 //   console.log(ayush['calcAge'](2000));
   
-  console.log(ayush.calcAge());
+//   console.log(ayush.calcAge());
   // what if above code is commented?
-  console.log(ayush);
+//   console.log(ayush);
 //   console.log(ayush.age);
   
   // console.log(`${ayush.firstName} is a ${ayush.age} years old ${ayush.job}`);
   
-  console.log(ayush.getSummary());
+//   console.log(ayush.getSummary());
   
   // arrays are special kinds of object because they 
+//   myJob = "Tutor & Developer"
+//   console.log(myJob);
+  
