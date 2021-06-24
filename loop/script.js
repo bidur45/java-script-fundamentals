@@ -71,3 +71,5 @@ const friends = [
 //   console.log(`You rolled a ${dice}`);
 //   dice = Math.trunc(Math.random() * 6) + 1;
 // }
+
+
